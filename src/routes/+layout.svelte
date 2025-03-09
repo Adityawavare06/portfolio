@@ -16,16 +16,17 @@
 >
     <div
          class={"fixed bottom-0 w-full duration-200 flex p-10 z-[10] " +
-            ( y > 0 ? " opacity-full pointer-events-auto"  : " pointer-events-none opacity-0")} >
+            ( y > 0? " opacity-full pointer-events-auto"  : " pointer-events-none opacity-0")} >
         <button
             on:click={goTop}
-            class="ml-auto rounded-full bg-slate-900 text-violet-400 px-3 sm:px-4 hover:bg-slate-800 cursor-pointer aspect-square grid place-items-center" >
-      hi  </button>
-        
+            class="ml-1/3 rounded-full bg-slate-950 text-violet-300  sm:px-4 hover:bg-slate-800 cursor-pointer aspect-square grid place-items-center" >
+  
+              <i class="fa-solid fa-arrow-up" ></i>  Top     </button>
+
                
     </div>
     <Header {y} {innerHeight}/>
     <slot />
-    <Footer />
+    <Footer  />
 </div>
 <svelte:window bind:scrollY={y} bind:innerHeight bind:innerWidth />

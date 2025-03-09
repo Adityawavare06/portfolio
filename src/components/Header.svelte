@@ -5,9 +5,18 @@
         { name: "Projects ", link: "#projects" },
         { name: "About me", link: "#about" },
         { name: "Blog", link: "https://www.youtube.com/shorts/9DOo_UqC310" },
-        // { name: "Contact", link: "" },
+        //  { name: "Contact", link: "#Contact" },
         // {name: '', link: ''},
     ];
+   
+    function gobottom() {
+  const footer = document.getElementById("footer"); // Get the footer element
+  footer.scrollIntoView({
+    behavior: 'smooth',  // Smooth scroll effect
+    block: 'start'       // Align the top of the footer with the top of the viewport
+  });
+}   
+
 </script>
 
 <header
@@ -37,13 +46,14 @@
             />
             <h4 class="relative z-9">Login</h4>
         </button> -->
-        <button
+        <button  on:click={gobottom}
             class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950"
         >
             <!-- <div
                 class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
             /> -->
-            <h4 class="relative z-9">Get in touch</h4>
+          <a href="#Contact"><h4 class="relative z-9">Get in touch</h4></a>
+            
         </button>
     </div>
 </header>

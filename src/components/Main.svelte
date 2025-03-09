@@ -4,7 +4,7 @@
     let steps = [
         {
             name: "Aditya Store",
-            icon: "fa-solid fa-cart-shopping",
+            icon: "fa-solid fa-cart-shoppig",
             description:
                 "Smoljames Store is a a merchanising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.",
         },
@@ -70,7 +70,7 @@
         </div>
         <div class="relative shadow-2xl grid place-items-center">
             <img
-                src={"images/profile.png"}
+                src={"picture/profile.jpg"}
                 alt="Zetane Engine"
                 class="object-cover z-[2] max-h-[70vh]"
             />
