@@ -40,6 +40,13 @@
                 "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.",
         },
     ];
+    function gobottom() {
+  const footer = document.getElementById("footer"); // Get the footer element
+  footer.scrollIntoView({
+    behavior: 'smooth',  // Smooth scroll effect
+    block: 'start'       // Align the top of the footer with the top of the viewport
+  });
+}   
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -50,29 +57,31 @@
         <div
             class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
-            <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
+            <h2 class="font-semibold text-3xl sm:text-5xl md:text-5xl">
                Hi! I'm   <span class="poppins text-violet-400">Aditya </span> wavare
-                <br />Full Stack
+                <br />Full Stack , Muscles
                 <span class="poppins text-violet-400">Developer</span>
             </h2>
-            <p class="text-base sm:text-lg md:text-xl"> Other than building <span class="text-violet-400"> muscles </span> 
+            <p class="text-base sm:text-lg md:text-xl"> Other than building <span class="text-violet-400">Muscles </span> 
 
-                My <span class="text-violet-400"> favorite tech</span> includes JavaScript (React.js, NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js & PostgreSQL
+               ,<br>
+
+                My favorite tech includes<span class="text-violet-400">JavaScript </span>   (React.js, NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js & PostgreSQL
                 or Firebase/Firestore!
             </p>
-            <button
+            <button  on:click={gobottom}
                 class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
             >
                 <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
                 
                 <h4 class="relative z-9">Get in touch &rarr;</h4>
-            </button>c
+            </button>
         </div>
         <div class="relative shadow-2xl grid place-items-center">
             <img
-                src={"picture/profile.jpg"}
+                src={"picture/bodyphoto1.png"}
                 alt="Zetane Engine"
-                class="object-cover z-[2] max-h-[70vh]"
+                class="object-cover z-[3] max-h-[60vh]"
             />
         </div>
         <!-- <div  class="flex p-0.5 relative max-w-[700px] w-full mx-auto">
@@ -100,14 +109,14 @@
                 Curious to <span class="poppins text-violet-400">see</span> my work?
             </h3>
         </div>
-        <a
+        <!-- <a
             href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
             target="_blank"
             class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
         >
             <i class="fa-regular fa-circle-play" ></i>
             <p>Watch the video</p>
-        </a>
+        </a> -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>

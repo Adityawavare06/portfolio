@@ -18,29 +18,29 @@
         <p class="mx-auto text-sm opacity-70">or</p>
         <p class="">Hugh_jass@gmail.com</p> -->
         <p><b class="pr-2">Email</b> wavareaditya06@gmail.com</p>
-        <p>
-            <b class="pr-2">GitHub</b>
-            <a href=" " target="_blank" class="text-violet-400"
-                >aditya <sup class=""
+        <p class="flex items-center gap-2">
+            
+            <b 
+            class="pr-2">GitHub</b>
+            <a href="https://github.com/Adityawavare06 " target="_blank" class="text-violet-400"
+                > <img src="picture\githubImage.png" alt="" class="w-10 h-10 rounded-lg hover: " />
+            </a>
+                 <!-- <sup class=""
                     ><span class="text-xs scale-75 pl-0.5"
                         ><i
                             class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"
-                        ></i></span
-                    ></sup
-                ></a
-            >
+                        ></i></span>
+                        </sup -->
+        
+            
         </p>
-        <p>
-            <b class="pr-2">LinkedIn</b>
-            <a href=" " target="_blank" class="text-violet-400"
-                >aditya-wavare<sup class=""
-                    ><span class="text-xs scale-75 pl-0.5"
-                        ><i
-                            class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"
-                        ></i></span
-                    ></sup
-                ></a
-            >
+        <p class="flex items-center gap-2">
+            
+            <b 
+            class="pr-2">Linkedin</b>
+            <a href="https://www.linkedin.com/in/aditya-wavare-86a171299/ " target="_blank" class="text-violet-400"
+                > <img src="picture\download.png" alt="" class="w-10 h-10 rounded-lg hover: " />
+            </a>
         </p>
     </div>
 </footer>
