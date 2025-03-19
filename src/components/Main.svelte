@@ -4,7 +4,7 @@
     let steps = [
         {
             name: "Aditya Store",
-            icon: "fa-solid fa-cart-shoppig",
+            icon: "fa-solid fa-diagram-project",
             description:
                 " Will be uploading major projects i have done over the year ",
         },
@@ -12,11 +12,12 @@
             name: " Begining projects ",
             icon: "fa-solid fa-list-check",
             description:
-                "  ",
+                " 1:calculator ,2:rock:paper:sissors ,3:fun games
+                                ",
         },
         {
             name: " Fitness / sports nutitionist ",
-            icon: "fa-solid fa-diagram-project",
+            icon: "fa-solid fa-dumbbell",
             description:
                 "Worked a free-lancer  trainer/coach , trained more than 100  clients both offline and oline training. "
                 
