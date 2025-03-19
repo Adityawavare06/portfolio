@@ -121,11 +121,10 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>
-                    Smoljames Store is a a merchanising store created with <strong
+                    Will be uploading major projects  <strong
                         class="text-violet-400"
-                        >Next.js, Commerce.js, Stripe & Node.js + Express.js!</strong
-                    > Commerce.js is a product CMS and Stripe is used for all transaction
-                    handling.
+                        >I have done over the year</strong
+                    >soon
                 </p>
             </Step>
             <Step step={steps[1]}>
@@ -142,14 +141,11 @@
             </Step>
             <Step step={steps[2]}>
                 <p>
-                    The Pokédex is a <strong class="text-violet-400"
-                        >SvelteKit & TailwindCSS</strong
-                    >
-                    web application, hosted on
-                    <strong class="text-violet-400">Netlify</strong>, that
-                    consumes and caches the
-                    <strong class="text-violet-400">Pokémon API</strong>
-                    to display all Pokémon information. Gotta catch them all!
+                  "Worked a free-lancer  trainer/coach ,  <strong class="text-violet-400"
+                        > trained more than 100  clients</strong> clients both offline and oline training.
+
+                   
+             
                 </p>
             </Step>
         </div>
