@@ -121,10 +121,10 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>
-                    Will be uploading major projects  <strong
+                    Will be uploading major projects <strong
                         class="text-violet-400"
                         >I have done over the year</strong
-                    >soon
+                    > soon
                 </p>
             </Step>
             <Step step={steps[1]}>
@@ -142,7 +142,7 @@
             <Step step={steps[2]}>
                 <p>
                   "Worked a free-lancer  trainer/coach ,  <strong class="text-violet-400"
-                        > trained more than 100  clients</strong> clients both offline and oline training.
+                        > trained more than 100  clients</strong> clients both offline and online training.
 
                    
              
