@@ -9,5 +9,6 @@ I am bodybuilder/fitness coach  who  learned to  code  so this website might hav
 
 # link 
 
-  https://portfolio-if43j5q3g-adityawavare06s-projects.vercel.app/
+  
+  https://portfolio-adityawavare06s-projects.vercel.app/
 
